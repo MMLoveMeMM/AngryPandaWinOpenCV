@@ -1,0 +1,39 @@
+﻿Build started 2017/11/14 星期二 下午 08:04:08.
+     1>Project "D:\vsproj\Win32OpenCV\Win32OpenCV\Win32OpenCV.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IE:\liuzhibao\library\opencv\opencv\build\include\opencv2 /IE:\liuzhibao\library\opencv\opencv\build\include\opencv /IE:\liuzhibao\library\opencv\opencv\build\include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_DEPRECATE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Release\Win32OpenCV.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt Win32OpenCV.cpp cv_remap.cpp
+         Win32OpenCV.cpp
+     1>E:\liuzhibao\library\opencv\opencv\build\include\opencv2/core/mat.hpp(2586): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>E:\liuzhibao\library\opencv\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>E:\liuzhibao\library\opencv\opencv\build\include\opencv2/core/utility.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>E:\liuzhibao\library\opencv\opencv\build\include\opencv2/imgproc.hpp(592): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+         cv_remap.cpp
+     1>E:\liuzhibao\library\opencv\opencv\build\include\opencv2/core/mat.hpp(2586): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>E:\liuzhibao\library\opencv\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>E:\liuzhibao\library\opencv\opencv\build\include\opencv2/core/utility.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>E:\liuzhibao\library\opencv\opencv\build\include\opencv2/imgproc.hpp(592): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\vsproj\Win32OpenCV\x64\Release\Win32OpenCV.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:E:\liuzhibao\library\opencv\opencv\build\x64\vc14\lib opencv_world320.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\vsproj\Win32OpenCV\x64\Release\Win32OpenCV.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\vsproj\Win32OpenCV\x64\Release\Win32OpenCV.lib" /MACHINE:X64 x64\Release\cv_blur.obj
+         x64\Release\cv_brightness.obj
+         x64\Release\cv_canny.obj
+         x64\Release\cv_channels.obj
+         x64\Release\cv_colors.obj
+         x64\Release\cv_cornerharris.obj
+         x64\Release\cv_filters.obj
+         x64\Release\cv_floodfill.obj
+         x64\Release\cv_hough.obj
+         x64\Release\cv_morph.obj
+         x64\Release\cv_remap.obj
+         x64\Release\cv_resize.obj
+         x64\Release\cv_roi.obj
+         x64\Release\cv_sobel.obj
+         x64\Release\stdafx.obj
+         x64\Release\Win32OpenCV.obj
+         Generating code
+         Finished generating code
+         Win32OpenCV.vcxproj -> D:\vsproj\Win32OpenCV\x64\Release\Win32OpenCV.exe
+     1>Done Building Project "D:\vsproj\Win32OpenCV\Win32OpenCV\Win32OpenCV.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.75

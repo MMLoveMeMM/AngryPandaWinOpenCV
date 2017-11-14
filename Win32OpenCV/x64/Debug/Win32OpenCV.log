@@ -1,0 +1,24 @@
+﻿Build started 2017/11/10 星期五 上午 11:30:54.
+     1>Project "D:\vsproj\Win32OpenCV\Win32OpenCV\Win32OpenCV.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IE:\liuzhibao\library\opencv\opencv\build\include /IE:\liuzhibao\library\opencv\opencv\build\include\opencv /IE:\liuzhibao\library\opencv\opencv\build\include\opencv2 /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_DEPRECATE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Debug\Win32OpenCV.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt cv_channels.cpp
+         cv_channels.cpp
+     1>E:\liuzhibao\library\opencv\opencv\build\include\opencv2/core/mat.hpp(2586): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>E:\liuzhibao\library\opencv\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>E:\liuzhibao\library\opencv\opencv\build\include\opencv2/core/utility.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>E:\liuzhibao\library\opencv\opencv\build\include\opencv2/imgproc.hpp(592): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\vsproj\Win32OpenCV\x64\Debug\Win32OpenCV.exe" /INCREMENTAL /NOLOGO /LIBPATH:E:\liuzhibao\library\opencv\opencv\build\x64\vc14\lib opencv_world320.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\vsproj\Win32OpenCV\x64\Debug\Win32OpenCV.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\vsproj\Win32OpenCV\x64\Debug\Win32OpenCV.lib" /MACHINE:X64 /D_CRT_SECURE_NO_WARNINGS x64\Debug\cv_channels.obj
+         x64\Debug\cv_colors.obj
+         x64\Debug\cv_roi.obj
+         x64\Debug\cv_sobel.obj
+         x64\Debug\stdafx.obj
+         x64\Debug\Win32OpenCV.obj
+     1>LINK : warning LNK4044: unrecognized option '/D_CRT_SECURE_NO_WARNINGS'; ignored
+     1>LINK : warning LNK4044: unrecognized option '/D_CRT_SECURE_NO_WARNINGS'; ignored
+         Win32OpenCV.vcxproj -> D:\vsproj\Win32OpenCV\x64\Debug\Win32OpenCV.exe
+     1>Done Building Project "D:\vsproj\Win32OpenCV\Win32OpenCV\Win32OpenCV.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.65
